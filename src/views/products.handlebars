@@ -1,0 +1,35 @@
+<div class="p-2">
+        <h4 class=" mb-3">Bienvenido a la vista de productos Hndbars!</h4>
+        <a href="/">
+            <button class="btn btn-secondary"> Ir hacia el formulario</button>
+        </a>
+        <hr>
+</div>
+{{#if products }}
+    <div class=" p-5">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                    <th></th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Foto</th>
+                    </tr>
+                </thead>
+            {{#each products}}
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>{{this.title}}</td>
+                        <td>$ {{this.price}}</td>
+                        <td><img class="rounded" width="70" height="50" src={{this.thumbnail}} alt={{this.title}}></td>
+                    </tr>
+                </tbody>
+            {{/each}}
+            </table>
+    </div>
+    {{else}}
+    <h4 class="text-center">No hay productos!</h4>
+{{/if}}
+
+

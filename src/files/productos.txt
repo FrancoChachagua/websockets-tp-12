@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Tarta ligth",
+    "price": 1250,
+    "thumbnail": "http://localhost:8080/1637874812740image.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Budin Navideñoo",
+    "price": 350,
+    "thumbnail": "http://localhost:8080/1638469074738image.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Tarta de Arandanos",
+    "price": 1050,
+    "thumbnail": "http://localhost:8080/1638468959624image.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Rolls de canella",
+    "price": 1100,
+    "thumbnail": "http://localhost:8080/1637262658561image.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Medialunas",
+    "price": 450,
+    "thumbnail": "http://localhost:8080/1637258518836image.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Roll cake",
+    "price": 1200,
+    "thumbnail": "http://localhost:8080/1637874754132image.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Tarta de frutos rojos",
+    "price": 2500,
+    "thumbnail": "http://localhost:8080/1637258794961image.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Pastel tres leches",
+    "price": 1400,
+    "thumbnail": "http://localhost:8080/1637874892672image.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "Brownie",
+    "price": 500,
+    "thumbnail": "http://localhost:8080/1637874935541image.jpeg"
+  }
+]
